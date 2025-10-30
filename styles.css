@@ -1,0 +1,53 @@
+#bckg {
+    background-color: darkslategrey;
+}
+
+h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+button img {
+    width: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.gme {
+    display: block;
+    /* makes it respect margin auto */
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+#contain {
+    display: flex;
+    flex-wrap: wrap;
+    /* allows buttons to go to next line */
+    justify-content: center;
+    /* centers the row(s) */
+    gap: 20px;
+    /* space between buttons */
+    margin-top: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
